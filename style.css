@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+    color: #9c7272;
+}
+
+#title {
+    color: #9c7272;
+}
+
+#description {
+    color: #9c5050;
+}
+
+#name-div {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#email-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#number-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#gender-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#continent-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#city-country-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#why-div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#textarea-div {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+

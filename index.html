@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Where are you from?</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="world">
+    <img src="maksim-shutov-kdLKidl6Lrc-unsplash.jpg" width=100%;>
+</div>
+
+<h1 id="title">Where in the world...</h1>
+<p id="description"><b>We want to know about your corner of the world. Take a moment to fill out this short survey and let's build our community!</b></p>
+
+<form id="survey-form">
+
+    <div id="name-div">
+    <label id="name-label" for="name"><b>Name:</b></label>
+        <input id="name" type="text" placeholder="First name" required>
+    </div>
+
+        <br>
+
+    <div id="email-div">
+    <label id= "email-label" for="email"><b>Email:</b></label>
+        <input id="email" type="email" placeholder="worldtraveler@123.com" required>
+    </div>
+
+        <br>
+        
+    <div id="number-div">
+    <label id="number-label" for="number"><b>What's your age?</b></label>
+        <input id="number" type="number" placeholder="35" min="18" max="100" required>
+    </div>
+
+        <br>
+
+    <div id="gender-div">
+    <label for="gender-select"><b>Select your gender:</b></label>
+
+            <label for="gender-select">
+                <input id="male" value="male" type="radio" name="gender-select">Male
+            </label>
+
+            <label for="gender-select">
+                <input id="female" value="female" type="radio" name="gender-select">Female
+            </label>
+    </div>
+
+        <br>
+
+    <div id="continent-div">
+    <label for="continent"><b>Choose your continent:</b></label>
+            <select id="dropdown" name="continent">
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Australia">Australia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+    </div>
+
+        <br>
+
+    <div id="city-country-div">
+    <label for="city-country"><b>Which country do you live in?</b></label>
+        <input id="city-country" type="text" placeholder="City, Country">
+    </div>
+
+        <br>
+
+    <div id="why-div">
+    <label for="why"><b>Why are you interested in traveling?</b></label>
+        
+            <input id="checkbox" type="checkbox" name="why" value="fun">for fun
+    
+            <input id="checkbox" type="checkbox" name="why" value="language_learning">language learning
+        
+            <input id="checkbox" type="checkbox" name="why" value="culture">to learn about cultures
+        
+            <input id="checkbox" type="checkbox" name="why" value="why_not">why not?
+        
+    </div>
+
+        <br>
+
+    <div id="textarea-div">
+    <label id="textarea"><b>Anything else we should know?</b></label>
+    <br>
+    <textarea id="textarea" name="instructions" rows="7" cols="40"></textarea>
+    </div>
+
+    <input id="submit" type="submit" value="Submit">
+
+</form>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script></body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
